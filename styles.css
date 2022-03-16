@@ -1,0 +1,121 @@
+/*  General Rules
+---------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Montserrat&display=swap");
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  background-color: #5e42ba;
+  font-family: "Kelly Slab", cursive;
+}
+.container {
+  padding: 10% 10%;
+  text-align: center;
+}
+
+/*  kit Rules
+---------------------*/
+h1 {
+  color: #f6f6f6;
+  font-size: 5rem;
+}
+.drumSet {
+  margin: 2rem 0;
+}
+button {
+  outline: none;
+  font-family: "Kelly Slab", cursive;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  font-size: 5rem;
+  border: 10px solid rgb(246, 246, 246);
+  border-radius: 10px;
+  background-color: transparent;
+  color: #5e42ba;
+  font-weight: bold;
+  text-shadow: 5px 0 #c373f8;
+  text-transform: capitalize;
+}
+.w {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/tom1.png) no-repeat;
+}
+.a {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/tom2.png) no-repeat;
+}
+.s {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/tom3.png) no-repeat 0% -30%;
+}
+.d {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/tom4.png) no-repeat 0% -30%;
+}
+.j {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/snare.png) no-repeat 0% -20%;
+}
+.k {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/crash.png) no-repeat;
+}
+.l {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(images/kick.png) no-repeat;
+}
+
+.animate {
+  background: #fff;
+  color: #7a58e9;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+  color: #ddd;
+  text-align: center;
+}
+/*  Responsive Rules
+------------------------*/
+@media screen and (max-width: 720px) {
+  .container {
+    padding: 7% 5%;
+  }
+  h1 {
+    color: #f6f6f6;
+    font-size: 2rem;
+  }
+  button {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    font-size: 3rem;
+  }
+}
